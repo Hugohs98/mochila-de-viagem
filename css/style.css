@@ -1,0 +1,133 @@
+html {
+    background: radial-gradient(farthest-corner at right top,#53B9DB, #5E7ADB);
+    height: 100%;
+    font-family: 'Roboto', cursive;
+}
+
+.conteudo {
+    padding: 10vh 3em 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    position: absolute;
+}
+
+.principal {
+    flex-grow: 1;
+    flex-basis: auto;
+    min-width: 600px;
+    padding: 4em 2em 2em;
+    box-sizing: border-box;
+    display: flex;
+    background: #48DBAF;
+    border-radius: 10px;
+    gap: 2em;
+}
+  
+.mochila {
+    min-width: 170px;
+    max-width: 170px;
+    height: 180px;
+    padding-top: 80px;
+    background-color: #2F9DC2;
+    box-shadow: inset 0 6px 0 2px #2B93B5, 0 -93px 0 -77px #48DBAF, 0 -93px 0 -72px #2B93B5, 0 -93px 0 -68px #DBA409;
+    background-image: linear-gradient(to right, transparent 5px, transparent 20px, transparent 1px, transparent 25px, transparent 5px, transparent 20px, transparent 20px, transparent 86px, #2B93B5 45px, #2B93B5 230px, transparent 25px, transparent 172px );
+    background-position: center 254px;
+    background-size: 305px 6px;
+    background-repeat: repeat-x; 
+    border: 5px solid #DBA409;
+    border-radius: 85px 85px 44px 44px;
+    display: inline-block;
+    vertical-align: top;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+  
+.mochila:before, .mochila:after {
+    display: block;
+    content: '';
+    position: absolute;
+  }
+  
+.mochila:before {
+    height: 75px;
+    width: 118px;
+    background-image: radial-gradient(circle closest-corner at 13px 29px , #2B93B5, #2B93B5 2px, transparent 2px, transparent), radial-gradient(circle closest-corner at 13px 29px , #DBA409, #DBA409 4px, transparent 4px, transparent), linear-gradient(to bottom, transparent 10px, transparent 15px, #DBA409 5px, #DBA409 18px, transparent 18px, transparent 100px), linear-gradient(to right, #2B93B5 10px, #2B93B5 10px, transparent 10px, transparent 16px, #2B93B5 9px, #2B93B5 50px), linear-gradient(to bottom, #2B93B5 8px, #2B93B5 16px, #491033 8px, #491033 30px, #2B93B5 20px, #2B93B5 72px, #2B93B5 10px, #2B93B5 57px, #2B93B5 5%);
+    margin-left: 22px;
+    margin-top: 58px;
+    border: 4px solid #DBA409;
+    border-radius: 11px;
+    box-shadow: 0 4px 0 0 #2B93B5, inset 0px 4px 1px 0 #2B93B5;
+    content: '||';
+    color: transparent;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: rgb(0, 0, 0) -2px -86px 0px;
+    font-size: 14px;
+}
+  
+.mochila:after {
+    margin-left: 67px;
+    margin-top: -30px;
+    background: #DBA409;
+    width:26px;
+    height:26px;
+    border: 3px solid #DBA409;
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #2F9DC2;
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background-color: #2F9DC2;
+    color: #000000;
+    cursor: pointer;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 120vh;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: #48DBAF;
+    font-weight: 400;
+}
+
